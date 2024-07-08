@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22
+    viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖍️</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Megrim:regular" 
+    rel="stylesheet" />
+</head>
+<body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div class="fullcontainer">
+        <div class="upperbox">  
+            <div class="buttoncontainer">
+                <div class="colors">
+                    <button id="blackBtn" onclick="setColor('black')">Black</button>
+                    <button id="random1Btn" onclick="setColor('random1')">Random 1</button>
+                    <button id="random2Btn" onclick="setColor('random2')">Random 2</button>
+                    <button id="eraseBtn" onclick="setColor('erase')">Erase</button>
+                </div>
+                <div class="clearer">
+                    <button id="clearBtn" onclick="clearIt()">Clear</button>
+                </div>
+            </div>
+            <div id="gridcontainer"></div>
+        </div> 
+        <div class="lowerbox">
+            <div class="sizescontainer">
+                <button class="value16Btn" onclick="changeCurrentSize(16)">16 x 16</button>
+                <button class="value24Btn" onclick="changeCurrentSize(34)">34 x 34</button>
+                <button class="value42Btn" onclick="changeCurrentSize(42)">42 x 42</button>
+                <button class="value64Btn" onclick="changeCurrentSize(64)">64 x 64</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

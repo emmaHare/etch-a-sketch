@@ -1,0 +1,169 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(22, 8, 48);
+}
+
+h1{
+    font-family: "Megrim";
+    font-size: 3rem;
+    margin-top: 50px;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.636),
+    0 0 15px rgba(255, 255, 255, 0.636),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187),
+    0 0 30px rgb(0, 255, 187),
+    0 0 35px rgb(0, 255, 187);
+    text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.636),
+    0 0 15px rgba(255, 255, 255, 0.636),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187),
+    0 0 30px rgb(0, 255, 187),
+    0 0 35px rgb(0, 255, 187);
+}
+
+.fullcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 760px;
+    height: 680px;
+    padding: 5px;
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: rgb(35, 13, 76);
+}
+
+
+.upperbox{
+    display: flex; 
+    flex-direction: row;
+    gap: 2px;
+}
+
+/*The side-buttons*/
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
+    align-items: center;
+    height: 560px;
+    width: 200px;
+    border: 1px solid rgb(35, 13, 76);
+    background-color: rgb(35, 13, 76);
+}
+
+.buttoncontainer button{
+    width: 150px;
+    padding: 10px;
+    font-family: "Megrim";
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(22, 8, 48);
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+
+.colors{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 25px;
+}
+
+.colors button:hover{
+    box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px rgb(0, 255, 187),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187);
+    
+    text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px rgb(0, 255, 187),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187);
+}
+
+.clearer button:hover{
+    box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px red,
+    0 0 20px red,
+    0 0 25px red;
+    
+    text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px red,
+    0 0 20px red,
+    0 0 25px red;
+}
+
+/*The actual sketch-pad*/
+
+#gridcontainer{
+    display: grid;
+    height: 560px;
+    width: 560px;
+    border: 1px solid rgb(35, 13, 76);
+    background-color: white;
+}
+
+/*The size-choices*/
+
+.lowerbox{
+    display: flex;
+}
+
+.sizescontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 63px;
+    width: 100%;
+    height: 130px;
+}
+
+.sizescontainer button{
+    width: 110px;
+    padding: 10px;
+    font-family: "Megrim";
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(22, 8, 48);
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.sizescontainer button:hover{
+    box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px rgb(0, 255, 187),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187);
+    
+    text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.648),
+    0 0 15px rgb(0, 255, 187),
+    0 0 20px rgb(0, 255, 187),
+    0 0 25px rgb(0, 255, 187);
+}
+
+
+/*====Media Queries are to be added!====*/
+
+
+
+
+
